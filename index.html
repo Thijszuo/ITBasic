@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#subjects">Vakken</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Hallo, ik ben <span class="highlight">Thijs</span></h1>
+            <p>IT Student</p>
+            <a href="#subjects" class="cta-button">Bekijk mijn vakken</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Over mij</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Ik ben Thijs, een IT-student die momenteel vijf vakken volgt op school.
+                        In deze vakken leer ik verschillende aspecten van softwareontwikkeling,
+                        van programmeren tot databasebeheer en AI.</p>
+                </div>
+                <div class="skills">
+                    <h3>Vaardigheden</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>HTML/CSS/JS</li>
+                        <li>Backend</li>
+                        <li>AI</li>
+                        <li>Databases</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="subjects" class="projects">
+            <h2>Mijn Vakken</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Python</h3>
+                    <p>Ik leer programmeren in Python. Variabelen, functies, loops en het werken met bibliotheken.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS en JavaScript. Het bouwen van werkende websites met behulp van AI .</p>
+                </div>
+                <div class="project-card">
+                    <h3>Backend</h3>
+                    <p>Server-achtig programmeren.</p>
+                </div>
+                <div class="project-card">
+                    <h3>IT Basic (AI)</h3>
+                    <p>De basis van kunstmatige intelligentie leren begrijpen en toepassen.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Database</h3>
+                    <p>Databases ontwerpen, SQL queries schrijven en data beheren.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Je naam" required>
+                <input type="email" placeholder="Je e-mail" required>
+                <textarea placeholder="Je bericht" required></textarea>
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Thijs. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

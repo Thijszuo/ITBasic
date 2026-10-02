@@ -1,0 +1,6 @@
+# Tijdelijke Word-bestanden
+~$*.docx
+
+# Opdrachtmateriaal (geen website-bestanden)
+*.docx
+Schermafbeelding*.png
