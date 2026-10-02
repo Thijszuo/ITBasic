@@ -13,11 +13,13 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 const contactForm = document.getElementById('contact-form');
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Bedankt voor je bericht! Ik neem zo snel mogelijk contact met je op.');
-    contactForm.reset();
-});
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Bedankt voor je bericht! Ik neem zo snel mogelijk contact met je op.');
+        contactForm.reset();
+    });
+}
 
 const sections = document.querySelectorAll('section');
 
@@ -37,5 +39,9 @@ sections.forEach(section => {
     observer.observe(section);
 });
 
-document.querySelector('.hero').style.opacity = '1';
-document.querySelector('.hero').style.transform = 'translateY(0)';
+const hero = document.querySelector('.hero');
+
+if (hero) {
+    hero.style.opacity = '1';
+    hero.style.transform = 'translateY(0)';
+}
