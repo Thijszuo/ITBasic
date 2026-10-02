@@ -53,6 +53,30 @@ gebruiken, wissel je de `src` in `<div class="project-shot">`.
 
 Open `index.html` in je browser om de website te bekijken.
 
+## Geschiedenis
+
+### v1.1 — 02-10-2026 (`d593361`)
+Projectenpagina toegevoegd.
+
+- Nieuwe pagina `projecten.html` met drie projectkaarten: screenshot, korte beschrijving,
+  technieken als chips en een regel met mijn eigen rol
+- Screenshots toegevoegd in `images/` en via `object-fit: cover` in het 16:9-vak geplaatst
+- Menu-item "Projecten" toegevoegd; het logo is een link geworden zodat je kunt terugkeren
+- CSS voor de pagina toegevoegd als eigen blok, zodat de bestaande stijl ongemoeid bleef
+- `js/script.js` kreeg `if`-controles: het contactformulier en de hero-sectie bestaan niet op de
+  projectenpagina, waardoor het script daar anders zou crashen
+- Intro gecentreerd, in lijn met de andere secties
+- Layout gecontroleerd op 1280px en 375px: drie kolommen, daarna één, geen horizontale overloop
+
+### v1.0 — 02-10-2026 (`79cf244`)
+Eerste versie van de portfolio-website.
+
+- Homepagina met donker thema (blauw/lichtblauw via CSS-variabelen)
+- Secties: Home, Over mij, Vakken, Contact
+- Vakken weergegeven als kaarten, vaardigheden als chips
+- Navigatiemenu met hamburger op mobiel en scroll-animaties
+- Contactformulier met bevestiging na verzenden
+
 ## Aanpassingen
 
 - Wijzig je naam in `index.html`
